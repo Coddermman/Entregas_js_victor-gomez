@@ -86,8 +86,8 @@ switch (ingresos){
         }break;
     case "edad":
         for (const variable of usuariosTotales){
-        console.log(variable.nombre + "  " + variable.edad);
-        alert(variable.nombre + "  " + variable.edad);
+        console.log(variable.nombre + "  " + variable.edad + " años");
+        alert(variable.nombre + "  " + variable.edad + " años");
         }break;
     case "genero":
         for (const variable of usuariosTotales){
@@ -96,13 +96,13 @@ switch (ingresos){
         }break;
     case "altura":
         for (const variable of usuariosTotales){
-        console.log(variable.nombre + "  " + variable.altura );
-        alert(variable.nombre + "  " + variable.altura);
+        console.log(variable.nombre + "  " + variable.altura + " cm");
+        alert(variable.nombre + "  " + variable.altura + " cm");
         }break;
     case "peso":
         for (const variable of usuariosTotales){
-        console.log(variable.nombre + "  " + variable.peso );
-        alert(variable.nombre + "  " + variable.peso);
+        console.log(variable.nombre + "  " + variable.peso + " kg");
+        alert(variable.nombre + "  " + variable.peso  + " kg");
         }break;
     default:
         alert("hemos terminado")
